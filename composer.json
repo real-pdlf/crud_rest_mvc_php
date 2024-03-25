@@ -1,0 +1,16 @@
+{
+    "name": "vendor/back",
+    "description": "creating one RESTfull MVC backend application using php",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Back\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RoyalPandalfuul",
+            "email": "ga7w7arcanjo@gmail.com"
+        }
+    ],
+    "require": {}
+}

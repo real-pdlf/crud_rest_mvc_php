@@ -1,6 +1,8 @@
 <?php
-use back\model\Usuario;
+require_once('../vendor/autoload.php');
+use Back\model\Usuario;
 
+$nome = 'teste';
+$usr = new Usuario($n);
 
-$usr = new Usuario();
-var_dump("hello!");
+var_dump($usr);

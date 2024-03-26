@@ -1,13 +1,15 @@
 <?php
-namespace back\model\Usuario;
+namespace Back\model;
 
 class Usuario{
     //att
     private $id, $nome, $email, $desc;
 
-    public function __construct(){
+    public function __construct($n){
+        $this->nome = $n;
 
-    }    
+    }
+    
     //getters e setters
     public function get_nome(){
         return $this->nome;

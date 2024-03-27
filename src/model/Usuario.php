@@ -5,9 +5,10 @@ class Usuario{
     //att
     private $id, $nome, $email, $desc;
 
-    public function __construct($n){
-        $this->nome = $n;
-
+    public function __construct($nome, $email, $desc){
+        $this->nome = $nome;
+        $this->email = $email;
+        $this->desc = $desc;
     }
     
     //getters e setters
@@ -29,5 +30,9 @@ class Usuario{
 
     public function get_desc(){
         return $this->desc;
+    }
+
+    public function set_desc($nova_desc){
+        $this->desc = $nova_desc;
     }
 }

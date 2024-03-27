@@ -1,4 +1,4 @@
 FROM php:8.2-cli
 COPY . /usr/src/
 WORKDIR /usr/src/
-CMD [ "php", "./app.php" ]
+CMD [ "php", "-S", "localhost:8000" ]
